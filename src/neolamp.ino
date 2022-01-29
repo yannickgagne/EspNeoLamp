@@ -33,11 +33,12 @@
        #include <WiFi.h>
 #endif
 
+#include "secret.h"
 #include "SinricPro.h"
 #include "SinricProSwitch.h"
 
-#define WIFI_SSID         "CanIGetA_OhYeah"    
-#define WIFI_PASS         "5702wifi_isLife"
+#define WIFI_SSID         MY_SSID    
+#define WIFI_PASS         MY_PASS
 #define APP_KEY           "0d341145-dc2d-49cc-afc1-6aea1d5b217d"      // Should look like "de0bxxxx-1x3x-4x3x-ax2x-5dabxxxxxxxx"
 #define APP_SECRET        "c7c761e5-575c-454f-82e1-e51deabafd1a-132b9ba0-45cc-4e0a-b877-9a4615b75439"   // Should look like "5f36xxxx-x3x7-4x3x-xexe-e86724a9xxxx-4c4axxxx-3x3x-x5xe-x9x3-333d65xxxxxx"
 #define SWITCH_ID         "61ed9fd1c2131463b70338bc"    // Should look like "5dc1564130xxxxxxxxxxxxxx"

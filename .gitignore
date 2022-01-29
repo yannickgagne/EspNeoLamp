@@ -1,3 +1,7 @@
+# Sensitive informations
+secret.h
+*.bak
+
 # Prerequisites
 *.d
 
